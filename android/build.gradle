@@ -25,6 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    // AGP 7.0+ requires namespace declaration, keep it consistent with package name
+    namespace 'com.namit.presentation_displays'
     compileSdkVersion 33
 
     sourceSets {
